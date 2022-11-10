@@ -1,0 +1,249 @@
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #FA86A2;
+  position: static;
+  top: 0;
+  width: 100%;
+}
+
+li{
+  float: left;
+}
+
+li a{
+  display: block;
+  color: white;
+  padding: 15px 30px;
+  text-decoration: none;
+  font-family: Cambria Math;
+}
+
+li a:hover:not(.active){
+  background-color: #E5B1DF;
+  color: white;
+}
+
+.active{
+  background-color: #E5B1DF;
+  color: white;
+}
+
+body{
+  background-color: #F3EAEB;
+}
+
+ol.tips{
+  list-style-type: circle;
+  background-color: #EA899A;
+  font-family: Cambria Math;
+}
+
+li.tips{
+  float: none;
+  background-color: white;
+  color: black;
+  font-family: Cambria Math;
+  font-size: 11pt;
+  padding: 15px 30px;
+}
+
+li a.tips{
+  color: black;
+}
+
+#h1{
+  font-family: Bahnschrift SemiBold;
+  color: #A73F55;
+  text-align: center;
+}
+
+#h2{
+  font-family: Bahnschrift SemiBold;
+  color: #B73B53;
+  text-align: center;
+}
+
+#h3{
+  font-family: Bahnschrift SemiBold;
+  color: #CE687C;
+  text-align: left;
+}
+
+#h4{
+  font-family: Bahnschrift SemiBold;
+  font-size: 700%;
+  color: #CE687C;
+  opacity: 0.8;
+  text-align: center;
+  text-shadow: 5px 5px white;
+}
+
+#h5{
+  font-family: Bahnschrift SemiBold;
+  font-size: 20pt;
+  color: white;
+  background-color: #FA86A2;
+  text-align: center;
+}
+
+#button{
+  font-family: Bahnschrift SemiBold;
+  font-size: 20;
+  background-color: #FCBACA;
+  color: white;
+  border: 2px solid #FBA7BB; /* Pink */
+}
+
+p{
+  font-size: 11pt;
+  font-family: Cambria Math;
+}
+
+p.a{
+  background-color: white;
+  font-family: Cambria Math;
+  text-align: left;
+  padding: 15px 30px;
+  top: 0;
+}
+
+img.center {
+  border: 2px solid #F3EAEB;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+video.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+img.c{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+a {
+  text-decoration: underline;
+  color: white;
+}
+
+footer{
+  position:static;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #FA86A2;
+  font-family: Cambria Math;
+  color: white;
+  text-align: center;
+  font-family: Cambria Math;
+  font-size: 10pt;
+}
+
+body.a{
+    padding: 0;
+    margin: 0;
+    width:100vw;
+    height: 100vh;
+ background-color: #BEC6E9;
+}
+.panel{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F3EAEB;
+}
+
+.question-container{
+    margin: 10px;
+    padding: 10px;
+    width: 80vw;
+    height: 7vh;
+    background-color: #FA86A2;
+    font-size: x-large;
+    text-align: center;
+    color: white;
+    font-family: Cambria Math;
+}
+.result{
+    margin: 10px;
+    padding: 5px;
+    width:80vw;
+    height: 10vh;
+    text-align: center;
+    font-size: 50px;
+    font-family: Cambria Math;
+
+}
+
+.option-container{
+display: flex;
+    justify-content: space-around;
+    margin: 10px;
+    padding: 5px;
+    width: 80vw;
+    height: 20vh;
+    background-color: #F7A6BB;
+
+}
+
+.option{
+    padding: 10px;
+    width: 15vw;
+    height: 10vh;
+    font-size: larger;
+    background-color: #FAC2D1;
+    font-family: Cambria Math;
+    font-size: 11pt;
+    color: white;
+}
+
+.navigation{
+    width: 80vw;
+    height: 8vh;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.evaluate,.next{
+    width:30vw;
+    height: 8vh;
+    padding: 5px;
+    font-size: larger;
+    background-color: #FA86A2;
+}
+.evaluate{
+
+    background-color: #F7A6BB;
+    font-family: Cambria Math;
+    color: white;
+}
+.next{
+    color: white;
+    background-color: #F7A6BB;
+    font-family: Cambria Math;
+}
+
+.evaluate:hover:not(.active){
+  background-color: #F593AD;
+  color: white;
+}
+
+.next:hover:not(.active){
+  background-color: #F593AD;
+  color: white;
+}
